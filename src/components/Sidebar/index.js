@@ -2,7 +2,7 @@ import { Link, NavLink } from 'react-router-dom';
 import  './index.scss';
 import logo from '../../assets/logo.png';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
-import { faHome, faUser, faEnvelope, faProjectDiagram, faCodeFork, faFileCode, faLink } from '@fortawesome/free-solid-svg-icons';
+import { faHome, faUser, faEnvelope, faProjectDiagram } from '@fortawesome/free-solid-svg-icons';
 
 
 export default function Sidebar(){
@@ -28,7 +28,7 @@ export default function Sidebar(){
 
 
             </nav>
-            <ul>
+            {/* <ul>
                 <li>
                     <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/bommisrilekkhaa-g-91496724b/">
                         <FontAwesomeIcon icon={faLink} color="#4d4d4e" />
@@ -44,7 +44,7 @@ export default function Sidebar(){
                         <FontAwesomeIcon icon={faCodeFork} color="#4d4d4e" />
                     </a>
                 </li>
-            </ul>
+            </ul> */}
 
         </div>
     )

@@ -1,4 +1,4 @@
-import logo from '../../assets/logo.png';
+// import logo from '../../assets/logo.png';
 import {Link} from 'react-router-dom'
 import {useEffect, useState} from 'react';
 import './index.scss';
@@ -7,7 +7,7 @@ import Logo from './Logo/index';
 
 export default function Home(){
     const [letterClass, setLetterClass] = useState('text-animate');
-    const nameArray = ['o', 'm' ,'m','i','s','r','i','l','e','k','k','h','a','a'];
+    const nameArray = [' ','B','o', 'm' ,'m','i','s','r','i','l','e','k','k','h','a','a'];
     const jobArray = ['F','u','l','l',' ','s','t','a','c','k',' ','D','e','v','e','l','o','p','e','r'];
     
     useEffect(() => {
@@ -28,9 +28,9 @@ export default function Home(){
                     <span className={letterClass}>H</span>
                     <span className={`${letterClass} _12`}>i,</span>
                     <br />
-                    <span className={`${letterClass} _13`}>I,</span>
+                    <span className={`${letterClass} _13`}>I</span>
                     <span className={`${letterClass} _14`}>'m</span>
-                    <img src={logo} alt="dev" />
+                    {/* <img src={logo} alt="dev" /> */}
                     <AnimatedLetters letterClass={letterClass} strArray={nameArray} idx={15} />
                     <br />
                     <AnimatedLetters letterClass={letterClass} strArray={jobArray} idx={22} />
