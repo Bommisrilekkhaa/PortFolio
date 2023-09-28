@@ -16,7 +16,7 @@
 
  img{
            
-            animation: rotateIn 1s linear both;
+            animation: rotateIn 1s ease-in-out;
             animation-delay: 1.4s;
             z-index:-1;
 
