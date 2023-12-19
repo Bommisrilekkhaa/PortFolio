@@ -26,10 +26,10 @@ export default function Layout(){
                     </a>
                 </li>
                 <li>
-                <i className="fa fa-twitter fa-2x" id="twit" aria-hidden="true">
                     <a target="_blank" rel="noreferrer" href="https://twitter.com/bommisrilekkhaa">
+                        <i className="fa fa-twitter fa-2x" id="twit" aria-hidden="true"></i>
                     </a>
-                        </i>
+                        
                 </li>
             </ul>
             <Outlet />

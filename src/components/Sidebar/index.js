@@ -8,9 +8,8 @@ import { faHome, faUser, faEnvelope, faProjectDiagram } from '@fortawesome/free-
 export default function Sidebar(){
     return (
         <div className='nav-bar'>
-            <Link className='logo' to='/'>
+            <Link className='logo object-cover ml-1' to='/'>
                 <img src={logo} alt='logo' />
-                
             </Link>
             <nav>
                 <NavLink exact="true" activeclassname="active" to='/'>
@@ -25,26 +24,8 @@ export default function Sidebar(){
                 <NavLink exact="true" activeclassname="active" className="contact-link" to='/contact'>
                     <FontAwesomeIcon icon={faEnvelope} color="#4d4d4e" />
                 </NavLink>
-
-
             </nav>
-            {/* <ul>
-                <li>
-                    <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/bommisrilekkhaa-g-91496724b/">
-                        <FontAwesomeIcon icon={faLink} color="#4d4d4e" />
-                    </a>
-                </li>
-                <li>
-                    <a target="_blank" rel="noreferrer" href="https://leetcode.com/BOMMISRILEKKHAA/">
-                        <FontAwesomeIcon icon={faFileCode} color="#4d4d4e" />
-                    </a>
-                </li>
-                <li>
-                    <a target="_blank" rel="noreferrer" href="https://github.com/Bommisrilekkhaa">
-                        <FontAwesomeIcon icon={faCodeFork} color="#4d4d4e" />
-                    </a>
-                </li>
-            </ul> */}
+            <input type="checkbox" value="dim" className='toggle theme-controller m-5'/>
 
         </div>
     )
