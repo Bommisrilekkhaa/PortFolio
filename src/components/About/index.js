@@ -2,10 +2,12 @@ import React from 'react'
 import './index.scss'
 import AnimatedLetters from '../AnimatedLetters'
 import {useEffect, useState} from 'react';
+import imageUrl from '../../assets/DSC02105-removebg-preview.png'
 import 'font-awesome/css/font-awesome.min.css';
 // import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 export const About = () => {
+    // const imageUrl = '../../assets/DSC02105-removebg-preview.png';
     const [letterClass, setLetterClass] = useState('text-animate');
     useEffect(() => {
         const timeoutId = setTimeout(() => {
@@ -23,12 +25,13 @@ export const About = () => {
             <h1>
                 <AnimatedLetters letterClass={letterClass} strArray={['A','b','o','u','t',' ','m','e']} idx={20} />
             </h1>
-            <p>I am a dedicated web developer and Java programming expert with a passion for crafting dynamic and interactive web experiences. My expertise spans both front-end and back-end development, allowing me to create end-to-end solutions that deliver seamless user experiences. </p>
-            <p> I have a keen interest in AI and machine learning, which I integrate into my work to enhance web applications with intelligent features. With a commitment to continuous learning and problem-solving, I thrive on tackling complex challenges in the ever-evolving field of web development. </p>
-            <p>My goal is to create innovative, secure, and user-centric web solutions that leave a lasting impact. Let's collaborate to turn ideas into reality.</p>
+            <p style={{alignContent:"space-evenly"}}>I am a dedicated web developer and <span style={{color:"#14c0f9"}}>Java programming expert</span> with a passion for crafting dynamic and interactive web experiences. My expertise spans both front-end and back-end development, allowing me to create end-to-end solutions that deliver seamless user experiences. I have a keen interest in <span style={{color:"#14c0f9"}}>AI and machine learning,</span> which I integrate into my work to enhance web applications with intelligent features. With a commitment to continuous learning and problem-solving, I thrive on tackling complex challenges in the ever-evolving field of web development. My goal is to create innovative, secure, and user-centric web solutions that leave a lasting impact.<span style={{color:"#14c0f9"}}>Let's collaborate to turn ideas into reality.</span></p>
         </div>
 
-        <div className='stage-cube-cont'>
+        <div className='me'>
+        <img src={imageUrl} alt="" />
+        </div>
+        {/* <div className='stage-cube-cont'>
             <div className='cubespinner'>
                 <div className='face1'>
                     <i className="fa fa-database fa-4x " id='database'></i>
@@ -51,7 +54,7 @@ export const About = () => {
 
             </div>
 
-        </div>
+        </div> */}
 
     </div>
   )

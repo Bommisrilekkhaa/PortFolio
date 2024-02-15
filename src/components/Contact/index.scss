@@ -1,0 +1,45 @@
+/* Apply basic styles to the form */
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    color: #b5edff;
+    font-size: medium;
+  }
+  
+  /* Apply styles to form labels */
+  label {
+    display: block;
+    margin-bottom: 8px;
+  }
+  
+  /* Apply styles to form inputs and textarea */
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+  }
+  
+  /* Apply styles to the submit button */
+  button {
+    background-color: #000 !important;
+    color: #b5edff;
+    padding: 10px 20px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #b5edff !important;
+    cursor: pointer;
+    transition: all ease-in-out;
+  
+    &:hover {
+      background-color: #b5edff !important;
+      color: #000;
+      border-color: #b5edff;
+    }
+  }
+  
+  
+ 
+  

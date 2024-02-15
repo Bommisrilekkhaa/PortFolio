@@ -1,11 +1,11 @@
 import './index.scss'
 import Logos from '../../../assets/logo.png'
-import {useRef,useEffect} from 'react';
+// import {useRef,useEffect} from 'react';
 
 const Logo = () =>{
-const bgRef = useRef();
-const outlineLogoRef = useRef();
-const solidLogoRef = useRef();
+// const bgRef = useRef();
+// const outlineLogoRef = useRef();
+// const solidLogoRef = useRef();
 
 
     return(

@@ -151,3 +151,9 @@
   }
   
 }
+.layout-container
+{
+  height: 100vh; /* Set to 100% of the viewport height */
+  overflow-y: auto; /* Enable vertical scrolling when needed */
+  padding: 20px; /* Add padding or adjust as needed */
+}

@@ -1,5 +1,4 @@
 // import logo from '../../assets/logo.png';
-import {Link} from 'react-router-dom'
 import {useEffect, useState} from 'react';
 import './index.scss';
 import AnimatedLetters from '../AnimatedLetters';
@@ -37,8 +36,8 @@ export default function Home(){
 
                 </h1>
 
-                <h2>Frontend Developer / Javascript Expert </h2>
-                <Link to="/contact" className="flat-button">CONTACT ME</Link>
+                <h2>Fullstack Developer / AI Enthusiast</h2>
+                <a href="https://drive.google.com/file/d/1pitOyCzPlIvimXwYTB1Yh5X2mCBRs0Au/view?usp=drive_link" className="flat-button">MY RESUME</a>
             </div>
             <Logo />
         </div>

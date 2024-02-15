@@ -32,8 +32,9 @@ export default function Layout(){
                         
                 </li>
             </ul>
-            <Outlet />
-
+            <div className='layout-container'>
+                <Outlet />
+            </div>
             <span className='tags bottom-tags'>&lt;/body&gt;<br></br></span>
             <span className='tags bottom-tag-html'>&lt;/html&gt;</span>
             
