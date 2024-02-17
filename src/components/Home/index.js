@@ -30,9 +30,9 @@ export default function Home(){
                     <span className={`${letterClass} _13`}>I</span>
                     <span className={`${letterClass} _14`}>'m</span>
                     {/* <img src={logo} alt="dev" /> */}
-                    <AnimatedLetters letterClass={letterClass} strArray={nameArray} idx={15} />
+                    <AnimatedLetters id="anime" letterClass={letterClass} strArray={nameArray} idx={15} />
                     <br />
-                    <AnimatedLetters letterClass={letterClass} strArray={jobArray} idx={22} />
+                    <AnimatedLetters id="anime" letterClass={letterClass} strArray={jobArray} idx={22} />
 
                 </h1>
 

@@ -1,11 +1,13 @@
-import './index.scss'
+import './index.scss';
 import 'font-awesome/css/font-awesome.min.css';
 import Sidebar from '../Sidebar/index'
 import { Outlet } from 'react-router-dom'
 
+
 export default function Layout(){
     return (
     <div className='App'>
+
         <Sidebar />
         <div className='page'>
             <span className='tags top-tags'>&lt;body&gt;</span>

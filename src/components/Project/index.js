@@ -16,6 +16,7 @@ const Project = () => {
     {
       title: 'EcoHarv',
       description: 'An Agricultural E-Commerce website',
+      thumbnailUrl:'https://photos.app.goo.gl/bgig8bgjgRbTy1gY7',
       embedUrl: '',
       projectUrl: 'https://github.com/Bommisrilekkhaa/wt-proj-farmer-s_Products',
     },
@@ -118,7 +119,7 @@ const styles = {
     margin: '20px auto',
     padding: '10px 20px',
     fontSize: '16px',
-    backgroundColor: '#007bff',
+    backgroundColor: '#00b700',
     color: 'white',
     border: 'none',
     borderRadius: '5px',
@@ -130,12 +131,12 @@ const styles = {
     marginBottom: '20px',
     boxShadow: '0 0 10px rgba(255, 255, 255, 250)',
     margin: '30px' ,
-    transition: 'transform 0.3s ease-in-out',
+    // transition: 'background',
   },
 
-  hoverEffect: {
-    transform: 'scale(-0.5)',
-  },
+  // hoverEffect: {
+  //   backgroundColor: 'blue',
+  // },
 
   
 };
